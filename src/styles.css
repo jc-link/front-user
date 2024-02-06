@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+}
+
+.rounded-table {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.shadow-effect {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#header {
+  background: #203a43; /* fallback for old browsers */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.table-row:hover {
+  cursor: pointer;
+}
